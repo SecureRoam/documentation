@@ -42,6 +42,10 @@ dtoverlay=dwc2
 
 `cmdline` is the alternative filename on the boot partition from which to read the kernel command line string. Once the firmware activated, load `dwc2` and `g_ether` modules using the `modules-load` instruction.
 
+<div class="warning">
+"g_ether" was used for legacy reasons (only supported by Microsoft RNDIS 5). If "g_ether" is used, Windows will recognize this device as "USB Serial Device (COMx)" and will not install the RNDIS driver automatically.
+</div>
+
 Inside `/boot/firmware/cmdline.txt`, add after the `rootwait` line :
 
 ```bash
