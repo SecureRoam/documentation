@@ -1,0 +1,9 @@
+[book]
+title = "Secure Roam Companion"
+authors = ["Paul Marliot", "Arthur Pineau", "Pierre-Luc Millet", "Arthur Passedouet", "Justin Martin", "Joachim Dieu", "Rémi van Boxem"]
+description = "A guide to undesrtand and use Secure Roam Companion"
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
