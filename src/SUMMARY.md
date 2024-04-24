@@ -15,3 +15,7 @@
   - [Pi-hole](./services/Pi-Hole.md)
   - [Snort](./services/snort.md)
   - [iptables](./services/iptables.md)
+
+# Appendix
+
+- [License](./license.md)
